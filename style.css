@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(187, 238, 187);
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+  
+.tarjeta {
+    flex: 1 1 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+  
+.tarjeta img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+  
+.tarjeta h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+  
+.tarjeta p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+  
+.tarjeta .boton {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+  
+.tarjeta .boton:hover {
+    background-color: #0056b3;
+}
+  
+
+footer {
+    text-align: center;
+    margin-top: 1em;
+    font-style: italic;
+}
