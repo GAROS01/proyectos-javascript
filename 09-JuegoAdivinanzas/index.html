@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juego adivinanzas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="score-container">
+      Acertadas: <span id="correctCount">0</span>
+    </div>
+    <div class="game-container">
+      <h1>Adivina</h1>
+      <p id="riddle"></p>
+      <input type="text" id="answer" placeholder="Escribe tu respuesta" />
+      <button onclick="checkAnswer()">Responder</button>
+      <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
